@@ -1,0 +1,66 @@
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tab-content {
+    display: none;
+    margin: 20px auto;
+    max-width: 600px;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Center the title text area */
+#post-title {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Position the content text area below the title */
+#post-content {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+#image-upload {
+    margin-top: 10px;
+}
+img{
+    width: 400px;
+}
+
+#publish-button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+}
+p{
+    color: white;
+}
